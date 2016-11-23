@@ -14,6 +14,6 @@ To install and try this demo:
 git clone https://github.com/ggomaeng/react-native-card-modal.git cardmodal
 
 cd cardmodal
-npm install && npm start
+npm install && react-native run-ios || react-native run-android (Depending on your emulator)
 ```
 
