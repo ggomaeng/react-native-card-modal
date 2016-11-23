@@ -11,7 +11,6 @@ Thank you guys for all the love! Just pointing out--this was my first animation 
 ![alt tag](https://raw.githubusercontent.com/ggomaeng/react-native-card-modal/master/demo.gif)
 
 ##Try the Demo
-(Use node version 6.7.0)
 To install and try this demo:
 
 ```bash
