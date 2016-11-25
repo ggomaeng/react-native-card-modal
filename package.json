@@ -7,8 +7,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "15.3.2",
-    "react-native": "0.37.0",
+    "@exponent/vector-icons": "~2.0.0",
+    "exponent": "~11.0.2",
+    "react": "~15.3.2",
+    "react-native": "github:exponentjs/react-native#sdk-11.0.3",
     "react-native-animatable": "^0.6.1",
     "react-native-navbar": "^1.5.4",
     "react-native-parallax-scroll-view": "^0.19.0",
@@ -23,5 +25,6 @@
     "jest": "17.0.3",
     "jest-react-native": "17.0.3",
     "react-test-renderer": "15.3.2"
-  }
+  },
+  "main": "main.js"
 }

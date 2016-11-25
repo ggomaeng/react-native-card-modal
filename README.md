@@ -10,15 +10,23 @@ Thank you guys for all the love! Just pointing out--this was my first animation 
 ###Demo
 ![alt tag](https://raw.githubusercontent.com/ggomaeng/react-native-card-modal/master/demo.gif)
 
-##Try the Demo
-To install and try this demo:
+## Try it out
 
-```bash
-git clone https://github.com/ggomaeng/react-native-card-modal.git cardmodal
+Try it with Exponent: https://getexponent.com/@sungwoopark95/react-native-card-modal
 
-cd cardmodal
-npm install && react-native link
+## Run it locally
 
-react-native run-ios || react-native run-android (Depending on your emulator)
-```
+To install, there are two steps:
 
+1. Install Exponent XDE [following this
+guide](https://docs.getexponent.com/versions/latest/introduction/installation.html).
+Also install the Exponent app on your phone if you want to test it on
+your device, otherwise you don't need to do anything for the simulator.
+2. Clone this repo and run `npm install`
+  ```bash
+  git clone https://github.com/ggomaeng/react-native-card-modal.git cardmodal
+
+  cd cardmodal
+  npm install
+  ```
+3. Open the project with Exponent XDE and run it.

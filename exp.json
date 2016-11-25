@@ -1,0 +1,19 @@
+{
+  "name": "react-native-card-modal",
+  "description": "A pure javascript card modal for React Native framework. https://github.com/ggomaeng/react-native-card-modal",
+  "slug": "react-native-card-modal",
+  "sdkVersion": "11.0.0",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "primaryColor": "#e92d49",
+  "iconUrl": "https://s3.amazonaws.com/exp-us-standard/icons/card-modal-icon.png",
+  "loading": {
+    "iconUrl": "https://s3.amazonaws.com/exp-us-standard/icons/card-modal-icon.png",
+    "hideExponentText": false
+  },
+  "packagerOpts": {
+    "assetExts": [
+      "ttf"
+    ]
+  }
+}

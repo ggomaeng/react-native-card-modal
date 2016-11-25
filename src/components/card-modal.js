@@ -346,10 +346,10 @@ export default class CardModal extends Component {
             return
         }
         return (
-            <Animated.View style={{opacity: this.state.content_opac, width: width, height: this.state.content_height, zIndex: -1,
+            <Animated.View style={{opacity: this.state.content_opac, marginTop: 40, width: width, height: this.state.content_height, zIndex: -1,
             backgroundColor: '#ddd', transform: this.state.content_pan.getTranslateTransform()}}>
 
-                <View style={{backgroundColor: 'white', flex: 1, margin: 16, marginTop: 50, padding: 16}}>
+                <View style={{backgroundColor: 'white', flex: 1, margin: 16, padding: 16}}>
                     <Text style={{fontSize: 24, fontWeight: '700', color: 'black'}}>Description</Text>
                     <Text style={{color: 'gray', paddingTop: 10}}>{this.props.content}</Text>
                 </View>
