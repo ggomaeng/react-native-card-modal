@@ -13,7 +13,6 @@
     "react-native": "github:exponentjs/react-native#sdk-11.0.3",
     "react-native-animatable": "^0.6.1",
     "react-native-navbar": "^1.5.4",
-    "react-native-parallax-scroll-view": "^0.19.0",
     "react-native-vector-icons": "^3.0.0"
   },
   "jest": {
