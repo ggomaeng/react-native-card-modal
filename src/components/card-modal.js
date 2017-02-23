@@ -262,8 +262,8 @@ export default class CardModal extends Component {
     renderTop() {
         var back = this.state.pressed
             ?
-            <TouchableOpacity onPress={this._onPress}>
-                <Animated.View style={[styles.backButton, {opacity: this.state.back_opac}]}>
+            <TouchableOpacity style={[styles.backButton, {opacity: this.state.back_opac}]} onPress={this._onPress}>
+                <Animated.View >
                     <Text style={{color: 'white'}}><Icon name='chevron-left' /></Text>
                 </Animated.View>
             </TouchableOpacity>
@@ -366,7 +366,7 @@ export default class CardModal extends Component {
                 <TouchableWithoutFeedback
                     onPress={!this.state.pressed ? this._onPress : null}>
                     <View ref="container"
-                          style={[{ alignItems: 'center'}]}>
+                          style={[{alignItems: 'center'}]}>
                         {this.renderTop()}
                         {this.renderBottom()}
                         {this.renderContent()}
@@ -378,13 +378,12 @@ export default class CardModal extends Component {
     }
 }
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         alignItems: 'center',
         alignSelf: 'center',
         marginBottom: 16,
         marginTop: 16,
-        zIndex: 10
     },
     top: {
         marginBottom: 0,
@@ -401,7 +400,6 @@ var styles = StyleSheet.create({
         position: 'absolute',
         backgroundColor: 'transparent',
         top: 32,
-        left: 10
-
+        left: 10,
     }
 })

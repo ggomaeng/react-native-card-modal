@@ -44,7 +44,6 @@ export default class Main extends Component {
 
         return (
             <ScrollView scrollEnabled={this.state.scroll} style={styles.container}>
-                {this.renderNav()}
                 <CardModal title={'Walmart'}
                            description={'Electronics, home, furniture, and more'}
                            image={require('./img/walmart-logo.png')}
@@ -85,7 +84,8 @@ export default class Main extends Component {
 var styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#ddd'
+        backgroundColor: '#ddd',
+        paddingTop: 20
     },
     box: {
         backgroundColor: 'red'
