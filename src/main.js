@@ -14,7 +14,6 @@ import {
 
 import CardModal from './components/card-modal';
 import NavigationBar from 'react-native-navbar';
-import ParallaxScrollView from 'react-native-parallax-scroll-view';
 
 export default class Main extends Component {
     constructor(props) {
