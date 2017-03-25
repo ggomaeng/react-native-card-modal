@@ -4,7 +4,7 @@ A pure javascript card modal for React Native framework.
 ##Disclaimer
 Thank you guys for all the love! Just pointing out--this was my first animation project, and it's probably not most suitable for production. Once I get more comfortable with Animated library and understand how to optimize the code better, I will refactor the code and publish a library for use ...or maybe somebody can contribute and actually create this into a library. 
 
-*[BUG]* This is not suitable for use on Android, since there seems to be a bug on react-native's Android layout. Not recommended for production! 
+<b>[BUG]</b> This is not suitable for use on Android, since there seems to be a bug on react-native's Android layout. Not recommended for production! 
 
 ###inspiration
 ![alt tag](https://raw.githubusercontent.com/ggomaeng/react-native-card-modal/master/inspiration.gif)
