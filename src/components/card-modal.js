@@ -260,7 +260,7 @@ export default class CardModal extends Component {
 
 
     renderTop() {
-        var back = this.state.pressed
+        const back = this.state.pressed
             ?
             <TouchableOpacity style={[styles.backButton, {opacity: this.state.back_opac}]} onPress={this._onPress}>
                 <Animated.View >
@@ -269,7 +269,7 @@ export default class CardModal extends Component {
             </TouchableOpacity>
             : <View/>;
 
-        var borderStyles = !this.state.pressed ? {borderRadius: this.state.TopBorderRadius, borderBottomLeftRadius: 0} :
+        const borderStyles = !this.state.pressed ? {borderRadius: this.state.TopBorderRadius, borderBottomLeftRadius: 0} :
         {borderTopRightRadius: this.state.TopBorderRadius, borderTopLeftRadius: this.state.TopBorderRadius};
         return (
             <Animated.Image source={this.props.image}
@@ -288,11 +288,11 @@ export default class CardModal extends Component {
 
     renderBottom() {
 
-        var loading = this.state.activate == 'loading' ?
+        const loading = this.state.activate == 'loading' ?
             <ActivityIndicator animating={true} color='white'/>
             :<Text style={{color: 'white', fontWeight: '800', fontSize: 18}}>{this.state.activate}</Text>;
 
-        var button = this.state.pressed
+        const button = this.state.pressed
             ?
             <TouchableOpacity onPress={this.activate}>
                 <Animated.View style={{opacity: this.state.button_opac, backgroundColor: this.props.color,
@@ -305,7 +305,7 @@ export default class CardModal extends Component {
             :
             null;
 
-        var plusButton = !this.state.activated
+        const plusButton = !this.state.activated
             ?
         <Animated.View style={{opacity: this.state.plus, justifyContent: 'center', alignItems: 'center'}}>
             <Icon name='plus-circle' style={{fontSize: 24, color: this.props.color}}/>
@@ -402,4 +402,4 @@ const styles = StyleSheet.create({
         top: 32,
         left: 10,
     }
-})
+});
