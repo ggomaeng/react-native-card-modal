@@ -1,4 +1,4 @@
-import Exponent from 'exponent';
+import Expo from 'expo';
 import Main from './src/main';
 
-Exponent.registerRootComponent(Main);
+Expo.registerRootComponent(Main);
