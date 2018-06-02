@@ -7,10 +7,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "@exponent/vector-icons": "~2.0.0",
-    "exponent": "~11.0.2",
-    "react": "~15.3.2",
-    "react-native": "github:exponentjs/react-native#sdk-11.0.3",
+    "@expo/vector-icons": "~6.3.1",
+    "babel-preset-expo": "^4.0.0",
+    "expo": "^21.0.0",
+    "react": "16.0.0-alpha.12",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-21.0.2.tar.gz",
     "react-native-animatable": "^0.6.1",
     "react-native-navbar": "^1.5.4",
     "react-native-vector-icons": "^3.0.0"

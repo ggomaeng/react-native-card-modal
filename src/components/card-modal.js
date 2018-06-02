@@ -262,8 +262,8 @@ export default class CardModal extends Component {
     renderTop() {
         var back = this.state.pressed
             ?
-            <TouchableOpacity style={[styles.backButton, {opacity: this.state.back_opac}]} onPress={this._onPress}>
-                <Animated.View >
+            <TouchableOpacity style={[styles.backButton]} onPress={this._onPress}>
+                <Animated.View style={{opacity: this.state.back_opac}}>
                     <Text style={{color: 'white'}}><Icon name='chevron-left' /></Text>
                 </Animated.View>
             </TouchableOpacity>
