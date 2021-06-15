@@ -1,6 +1,21 @@
 # react-native-card-modal
 A pure javascript card modal for React Native framework.
 
+## Sponsored by Spurwing
+
+![img](https://github.com/ggomaeng/public/blob/main/spurwing-cover.png?raw=true)
+
+This repo is sponsored by Spurwing, where their API Makes Adding Scheduling Quick, Reliable and Scalable.
+
+- Scheduling API
+- Enterprise Scheduling API
+- Scheduling API for Business
+- Scheduling and Calendar Management API
+- Booking API
+
+Check them out [here](https://github.com/Spurwing/Appointment-Scheduling-API)!
+
+
 ## Disclaimer
 Thank you guys for all the love! Just pointing out--this was my first animation project, and it's probably not most suitable for production. Once I get more comfortable with Animated library and understand how to optimize the code better, I will refactor the code and publish a library for use ...or maybe somebody can contribute and actually create this into a library. 
 
